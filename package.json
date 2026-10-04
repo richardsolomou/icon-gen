@@ -38,7 +38,7 @@
     "@tanstack/react-router": "^1.170.34",
     "@tanstack/react-start": "^1.168.51",
     "lucide-react": "^1.43.0",
-    "posthog-js": "^1.429.1",
+    "posthog-js": "^1.430.3",
     "ras-stack": "^3.0.0",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
