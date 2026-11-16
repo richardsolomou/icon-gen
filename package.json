@@ -43,7 +43,7 @@
     "@tanstack/react-router-ssr-query": "^1.167.3",
     "@tanstack/react-start": "^1.169.5",
     "lucide-react": "^1.63.0",
-    "posthog-js": "^1.441.2",
+    "posthog-js": "^1.450.0",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
     "react-dropzone": "^20.1.4",
