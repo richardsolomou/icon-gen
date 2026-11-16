@@ -52,6 +52,7 @@
   },
   "devDependencies": {
     "@cloudflare/vite-plugin": "1.66.0",
+    "@posthog/rollup-plugin": "^1.6.4",
     "@tailwindcss/vite": "^4.3.3",
     "@types/node": "^26.6.6",
     "@types/react": "^19.3.0",
