@@ -1,14 +1,14 @@
 export interface FrameworkExample {
-  id: string;
-  name: string;
-  htmlCode: string;
-  manifestCode: string;
+  id: string
+  name: string
+  htmlCode: string
+  manifestCode: string
 }
 
 export const FRAMEWORK_EXAMPLES: FrameworkExample[] = [
   {
-    id: "html",
-    name: "HTML",
+    id: 'html',
+    name: 'HTML',
     htmlCode: `<!-- In your HTML <head> -->
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -36,8 +36,8 @@ export const FRAMEWORK_EXAMPLES: FrameworkExample[] = [
 }`,
   },
   {
-    id: "tanstack-start",
-    name: "TanStack Router/Start",
+    id: 'tanstack-start',
+    name: 'TanStack Router/Start',
     htmlCode: `// In your __root.tsx file
 import { createRootRoute } from '@tanstack/react-router'
 
@@ -87,8 +87,8 @@ export const Route = createRootRoute({
 }`,
   },
   {
-    id: "remix",
-    name: "Remix",
+    id: 'remix',
+    name: 'Remix',
     htmlCode: `// In your root.tsx or any route file
 import type { LinksFunction } from '@remix-run/node'
 
@@ -134,8 +134,8 @@ export const links: LinksFunction = () => [
 }`,
   },
   {
-    id: "nuxt",
-    name: "Nuxt",
+    id: 'nuxt',
+    name: 'Nuxt',
     htmlCode: `// In your nuxt.config.ts
 export default defineNuxtConfig({
   app: {
@@ -184,4 +184,4 @@ export default defineNuxtConfig({
   "display": "standalone"
 }`,
   },
-];
+]
