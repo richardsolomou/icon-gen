@@ -4,8 +4,9 @@
  */
 export const contentSecurityPolicy: Record<string, string[]> = {
   'default-src': ["'self'"],
-  // Start streams its hydration data as inline scripts, and the root route adds chunk recovery.
-  'script-src': ["'self'", "'unsafe-inline'"],
+  // Start streams its hydration data as inline scripts, and the root route adds chunk recovery. Shiki highlights the
+  // framework examples with its WebAssembly regex engine.
+  'script-src': ["'self'", "'unsafe-inline'", "'wasm-unsafe-eval'"],
   'style-src': ["'self'", "'unsafe-inline'"],
   // The footer avatar comes from GitHub.
   'img-src': ["'self'", 'data:', 'https://github.com', 'https://avatars.githubusercontent.com'],
